@@ -1,0 +1,92 @@
+# ===================
+# Unreal Engine files
+# ===================
+
+# Binaries and build outputs
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+
+# Local and potentially sensitive configs
+Config/DefaultEditor.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultDeviceProfiles.ini
+Config/Android/
+Config/IOS/
+
+
+
+# Ignore auto-generated project files
+*.opensdf
+*.sdf
+*.suo
+*.VC.db
+*.VC.opendb
+*.log
+*.tlog
+*.obj
+*.pdb
+*.ipdb
+*.iobj
+*.idb
+*.ilk
+
+# Ignore Live Coding stuff
+.livecoding/
+
+# Ignore crash reports, debug logs, config backups
+*.dmp
+*.tmp
+*.bak
+
+# Ignore user-specific Unreal config
+*.local
+*.user
+*.userprefs
+
+# ===================
+# Visual Studio files
+# ===================
+
+# VS project files
+*.sln
+*.vcxproj*
+*.csproj
+*.psess
+*.vsp
+*.ncb
+*.dbmdl
+*.cache
+*.suo
+*.sdf
+
+# VS Code Workspace
+*.code-workspace
+
+# VS database and browse info
+*.VC.db
+*.VC.opendb
+*.Browse.VC.db
+
+# ===================
+# OS/System files
+# ===================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Linux
+*.swp
+*~
+
+#Asset Naming Keeper
+Content/AssetNamingKeeper
